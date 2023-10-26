@@ -2,8 +2,6 @@ import app from './app.js'
 import connectDatabase from './db/Database.js'
 import cloudinary from 'cloudinary'
 import dotenv from 'dotenv'
-import "./index.js"
-
 
 // Handling uncaught Exception
 process.on("uncaughtException", (err) => {
